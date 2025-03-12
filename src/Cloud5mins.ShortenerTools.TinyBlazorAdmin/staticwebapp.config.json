@@ -5,10 +5,7 @@
   "routes": [
     {
       "route": "/*",
-      "methods": [
-        "get"
-      ],
-      "rewrite": "https://a.jshoq.me/",
+      "redirect": "https://a.jshoq.me/",
       "statusCode": 302
     }
   ],
