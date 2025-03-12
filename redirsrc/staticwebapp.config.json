@@ -1,11 +1,6 @@
 {
   "routes": [
     {
-      "route": "/{*rest}.{ext}",
-      "allowedRoles": ["anonymous"],
-      "rewrite": "https://a.jshoq.me/{rest}.{ext}"
-    },
-    {
       "route": "/{*rest}",
       "allowedRoles": ["anonymous"],
       "rewrite": "https://a.jshoq.me/{rest}"
