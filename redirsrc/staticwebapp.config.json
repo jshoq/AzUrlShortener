@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "route": "/{*rest}",
+        "allowedRoles": ["anonymous"],
+        "rewrite": "https://a.jshoq.me/{rest}"
+      }
+    ]
+  }
