@@ -42,11 +42,11 @@
       "redirect": "/unauthorized"
     },
     {
-      "route": "/{*post}",
+      "route": "/{*}",
       "methods": [
         "get"
       ],
-      "redirect": "https://a.jshoq.me/{post}",
+      "rewrite": "https://a.jshoq.me/",
       "statusCode": 302
     }
   ],
