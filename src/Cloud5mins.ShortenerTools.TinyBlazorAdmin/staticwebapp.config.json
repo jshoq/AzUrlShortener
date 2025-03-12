@@ -42,7 +42,7 @@
       "redirect": "/unauthorized"
     },
     {
-      "route": "/{*}",
+      "route": "/*",
       "methods": [
         "get"
       ],
