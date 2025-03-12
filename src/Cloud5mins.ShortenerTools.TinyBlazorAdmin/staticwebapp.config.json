@@ -43,7 +43,10 @@
     },
     {
       "route": "/{*post}",
-      "rewrite": "https://a.jshoq.me/{post}",
+      "methods": [
+        "get"
+      ],
+      "redirect": "https://a.jshoq.me/{post}",
       "statusCode": 302
     }
   ],
