@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "route": "/{*rest}",
+      "rewrite": "https://a.jshoq.me/{rest}"
+    }
+  ]
+}
