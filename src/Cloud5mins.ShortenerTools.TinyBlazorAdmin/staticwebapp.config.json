@@ -4,44 +4,6 @@
   },
   "routes": [
     {
-      "route": "/urlmanager*",
-      "allowedRoles": [
-        "admin"
-      ]
-    },
-    {
-      "route": "/statistics*",
-      "allowedRoles": [
-        "admin"
-      ]
-    },
-    {
-      "route": "/api/*",
-      "methods": [
-        "GET",
-        "POST"
-      ],
-      "allowedRoles": [
-        "admin"
-      ]
-    },
-    {
-      "route": "/login",
-      "rewrite": "/.auth/login/aad"
-    },
-    {
-      "route": "/.auth/login/twitter",
-      "statusCode": 404
-    },
-    {
-      "route": "/logout*",
-      "redirect": "/.auth/logout"
-    },
-    {
-      "route": "/unauthorized*",
-      "redirect": "/unauthorized"
-    },
-    {
       "route": "/*",
       "methods": [
         "get"
